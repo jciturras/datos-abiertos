@@ -1,0 +1,23 @@
+---
+title: "Reproducibilidad en Investigación Social"
+subtitle: "<center>Documento de trabajo</center>"
+author: "Investigador a cargo: Juan Carlos Castillo <br> Asistente de investigación: Julio Iturra <br> Pasante: Martín Venegas Márquez"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Documento de trabajo del equipo <b>Reproducibilidad </b> para el Laboratorio de Ciencia Social Abierta"
+favicon: images/lisa.ico
+cover-image: images/lisa-complete.png
+github-repo: lisa-coes/repro
+url: https://github.com/lisa-coes/repro
+always_allow_html: yes
+---
+
+# Punto de partida: reproducibilidad en la investigacion social {.unnumbered}
+
+La ciencia y la cocina tienen algo en común: ambas siguen una receta. En la cocina seguimos una receta cuidadosamente elaborada para que el mismo plato pueda ser preparado cada vez que sea necesario. Asimismo, en la ciencia tomamos una serie de decisiones y elaboramos un plan de análisis el cuál, siguiéndolo paso a paso, debería lograr regenerar los mismos hallazgos que el estudio original. Esto implica que, cualquier individuo que tenga acceso a nuestro plan de análisis debería poder regenerar nuestros hallazgos, dando paso a una ciencia abierta a la evaluación crítica. Esta característica de la ciencia se conoce cómo **reproducibilidad** y, pese a su importancia para el progreso científico, la evidencia ha demostrado que no se está adoptando lo suficiente [@baker_500_2016; @wilson_Replication_1973; @an_Crisis_2018].
+
+La falta de reproducibilidad es una preocupación creciente en distintas disciplinas de las ciencias sociales [@breznau_Observing_2021; @nosek_Promoting_2015; @christensen_Transparent_2019]. ¿Cuántas veces nos hemos enfrentado a un trabajo publicado que no comparte sus materiales, y que por tanto, es imposible acceder a los procedimientos que dieron luces de sus resultados? En el marco de la denominada “crisis de la ciencia", la comunidad científica se ha organizado para dar salida a este problema a través de una diversidad de iniciativas que, a modo general, buscan promover los principios de la ciencia abierta. En este sentido, dichas iniciativas han puesto sus esfuerzos en contribuir con herramientas que permitan dar salida a los problemas en torno a la **reproducibilidad** en la investigación empírica. En este capítulo, revisaremos cómo ha sido entendido este problema y luego se presentarán las propuestas de tres iniciativas en torno a cómo abordar la reproducibilidad en las ciencias sociales empíricas. Terminaremos haciendo un resumen de los puntos más importantes a tener en consideración para efectuar investigaciones reproducibles.
